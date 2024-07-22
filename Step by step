@@ -1,0 +1,7 @@
+VMware vSphere
+Setup Guide
+Install ESXi: Install ESXi on your physical servers using the installation media.
+Networking Configuration: Set up standard or distributed virtual switches using the vSphere Client.
+Storage Configuration: Configure datastores using VMFS, NFS, or vSAN.
+vCenter Server Deployment: Install and configure vCenter Server.
+
