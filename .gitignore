@@ -1,0 +1,68 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore Linux system files
+*~
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore virtual environments
+venv/
+.env/
+.env.bak/
+env/
+.venv/
+.vscode/
+
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ignore Ansible files
+*.retry
+
+# Ignore Kubernetes files
+*.kubeconfig
+
+# Ignore Nutanix-related files
+foundation_config/
+cluster_init_config/
+nutanix_config/
+
+# Ignore Hyper-V related files
+.vhd
+.vhdx
+.vmrs
+.vmgs
+
+# Ignore VMware related files
+*.vmdk
+*.vmem
+*.vmx
+*.vmsd
+*.nvram
+*.vmxf
+
+# Ignore IDE related files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
