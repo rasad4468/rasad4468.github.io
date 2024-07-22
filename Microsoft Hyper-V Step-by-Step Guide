@@ -1,0 +1,12 @@
+Install Hyper-V Role:
+
+Use Windows Server Manager or PowerShell to install the Hyper-V role.
+Configure Networking:
+
+Set up virtual switches using Hyper-V Manager or PowerShell.
+Storage Setup:
+
+Configure storage pools and virtual hard disks.
+Host Configuration:
+
+Configure host settings such as CPU and memory allocation.
