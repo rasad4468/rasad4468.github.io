@@ -1,0 +1,19 @@
+#Deployment Script
+Nutanix AHV
+Step-by-Step Guide
+Install Nutanix Cluster:
+
+Use the Nutanix Foundation tool to install the Nutanix cluster on your hardware.
+Follow the instructions provided by the Nutanix Foundation to initialize and configure the cluster.
+Configure Networking:
+
+Configure the virtual networks, VLANs, and IP addressing using Prism.
+Initialize Prism:
+
+Log in to Prism and complete the initial setup wizard.
+Configure cluster settings such as time synchronization, DNS, and NTP.
+Storage Configuration:
+
+Set up storage containers and policies in Prism.
+Deployment Script
+Nutanix AHV uses a web-based interface for most configurations. Here’s a Python script using Nutanix’s REST API to automate some tasks:
